@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -108,7 +110,11 @@ class _CartPageState extends State<CartPage> {
                                         MainAxisAlignment.spaceBetween,
                                     children: [
                                       Text(
-                                          'Общая сумма ${formatNumber(state.totalSum)} тг'),
+                                        'Общая сумма ${formatNumber(state.totalSum)} тг',
+                                        style: TextStyle(fontFeatures: [
+                                          FontFeature.tabularFigures()
+                                        ]),
+                                      ),
                                       Text(
                                           '${state.totalCount} ${checkTotalCount(state.totalCount)}'),
                                     ],

@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -125,7 +127,10 @@ class _ProductCardState extends State<ProductCard> {
                                 ),
                                 Text(
                                   widget.product.count.toString(),
-                                  style: kProductCardTextStyle,
+                                  style: kProductCardTextStyle.copyWith(
+                                      fontFeatures: [
+                                        FontFeature.tabularFigures()
+                                      ]),
                                 ),
                                 SizedBox(
                                   width: 12,
