@@ -27,7 +27,6 @@ class ProductBloc extends Bloc<ProductEvent, ProductState> {
         yield ProductErrorState();
       }
     } else if (event is ProductSearchEvent) {
-      print('f');
       yield ProductSearchingState();
       try {
         List<Product> searchedProducts =
