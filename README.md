@@ -1,5 +1,5 @@
 # project_internship_laundry
-Laundry project with bloc and hive
+Laundry project with bloc and hive, and JWT Authorization
 
 ![Screen Shot 2021-05-17 at 10 21 07](https://user-images.githubusercontent.com/63044755/118432184-c7323380-b6f9-11eb-876b-67d21f944dce.png)
 ![Screen Shot 2021-05-17 at 10 22 49](https://user-images.githubusercontent.com/63044755/118432242-eaf57980-b6f9-11eb-934a-f1952e678e1b.png)
