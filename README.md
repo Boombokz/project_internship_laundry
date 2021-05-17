@@ -1,4 +1,4 @@
-# project_internship_laundry
+# Laundry login app
 Laundry project with bloc and hive, and JWT Authorization
 
 ![Screen Shot 2021-05-17 at 10 21 07](https://user-images.githubusercontent.com/63044755/118432184-c7323380-b6f9-11eb-876b-67d21f944dce.png)
